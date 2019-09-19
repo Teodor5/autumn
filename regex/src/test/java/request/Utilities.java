@@ -1,4 +1,4 @@
-package regular;
+package request;
 
 import io.qameta.allure.Step;
 

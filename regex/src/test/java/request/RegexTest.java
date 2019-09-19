@@ -1,4 +1,4 @@
-package regular;
+package request;
 
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
@@ -9,7 +9,7 @@ import java.util.*;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import static regular.Utilities.parsePrice;
+import static request.Utilities.parsePrice;
 
 /**
  * task#2
