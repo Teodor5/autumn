@@ -24,6 +24,7 @@ public class UserApiService extends ApiService {
 
     @Step
     public AssertableResponse getAllToDos(){
+        log.info("About to get all todos ");
         return new AssertableResponse(setup()
                 .when()
                 .get("/todos"));
