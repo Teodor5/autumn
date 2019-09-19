@@ -1,7 +1,7 @@
 To run tests you should perform following steps:
 
 ```bash
-$ mvm clean test site
+$ mvn clean test site
 ```
 task#1 - api
 ------------
