@@ -12,7 +12,6 @@ public class HerokuPage extends BasePage {
 
     public HerokuPage() {
         this.webdriver = driver;
-        PageFactory.initElements(webdriver, this);
     }
 
     @Step

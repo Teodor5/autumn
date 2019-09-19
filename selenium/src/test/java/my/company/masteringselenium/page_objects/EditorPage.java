@@ -25,7 +25,6 @@ public class EditorPage extends BasePage {
 
     public EditorPage() {
         this.webdriver = driver;
-        PageFactory.initElements(webdriver, this);
         webdriver.switchTo().frame(editorFrame);
     }
 
